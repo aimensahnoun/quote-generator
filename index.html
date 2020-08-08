@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- FontAwsome Script -->
+    <script
+      src="https://kit.fontawesome.com/f303a43458.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Import -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <div class="loader" id="loader"></div>
+    <div class="quote-container" id="quote-container">
+      <!-- Quote -->
+      <div class="quote-text">
+        <!-- Quote Icon -->
+        <i class="fas fa-quote-left"></i>
+        <!-- Quote -->
+        <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet This!">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-quote">New Quote</button>
+      </div>
+    </div>
+    <!-- Script File -->
+    <script src="index.js"></script>
+  </body>
+</html>
