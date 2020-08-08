@@ -37,7 +37,6 @@ async function getQuote() {
     fetch(proxy + apiUrl)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         if (data.quoteAuthor === "") {
           quoteAuthor.innerText = "Unknown";
         } else {
